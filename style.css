@@ -33,6 +33,7 @@ header {
     justify-content: space-between;
 
 }
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -50,7 +51,6 @@ header {
     margin-bottom: 19px;
     gap: 41px; 
 }
-
 
 .a_lupa {
     background: #222;
@@ -129,6 +129,7 @@ header {
     text-decoration: center;
     color: #222222;
 }
+
 .brend h1 {
     font-size: 48px;
     font-weight: 900;
@@ -180,28 +181,24 @@ header {
 
 .card1 {
     background-image: url(img/card1.jpg);
-    width: 360px;
     height: 260px;
     flex-shrink: 0;
 }
 
 .card2 {
     background-image: url(img/card2.jpg);
-    width: 360px;
     height: 260px;
     flex-shrink: 0;
 }
 
 .card3 {
     background-image: url(img/card3.jpg);
-    width: 360px;
     height: 260px;
     flex-shrink: 0;
 }
 
 .card4 {
     background-image: url(img/card4.jpg);
-    width: 1140px;
     height: 180px;
     flex-shrink: 0;
     grid-column: span 3;
@@ -261,13 +258,16 @@ header {
     margin-bottom: 20px;
 }
 
-.btm_shop{
+.btm_shop {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
 }
 
-.btn_shop {
+.btn_shop1 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
     flex-shrink: 0;
     color: #F16D7F;
     background: #FFF;
@@ -278,6 +278,90 @@ header {
 }
 
 
-@media  (max-width:1014) and (min-width:768) {
+@media (max-width:1024px) and (min-width:768px) {
+
+    .navigation {
+        max-width: 768px;
+    }
+
+    .top_container {
+    padding-left: calc(50% - 384px);
+    padding-right: calc(50% - 384px);    
+    }
     
+    .logo {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: 32px;
+    }
+
+    .container {
+        max-width: 736px;
+    }
+
+    .menu {
+        margin-top: 27px;
+        margin-right: 41px;
+        margin-bottom: 18px;
+    }
+
+    .btn2_heder {
+        margin-right: 41px;
+    }
+
+    .poster {
+        max-width: 768px;
+    }
+
+    .brend {
+        width: 311px;
+        height: 92px;
+    }
+
+    .brend h1 {
+        font-size: 44px;
+    }
+
+    .brend h2 {
+        font-size: 24px;
+    }
+
+    .cards {
+        gap: 19px;
+        margin-bottom: 110px;
+    }
+
+
+
+    .card1 {
+        height: 167px;
+    } 
+
+    .card2 {
+        height: 167px;
+    }
+
+    .card3 {
+        height: 167px;
+    }
+
+    .card4 {
+        height: 116px;
+    }
+
+    .shop_text {
+        margin-bottom: 74px;
+    }
+
+    .cards_shop {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 33px;
+    }
+
+    .btm_shop {
+        margin-bottom: 71px;
+    }
+
 }
