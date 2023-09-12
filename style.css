@@ -149,7 +149,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 30px;
-    margin-bottom: 96px;
+    margin-bottom: 16px;
 }
 
 .card {
@@ -328,10 +328,8 @@ header {
 
     .cards {
         gap: 19px;
-        margin-bottom: 110px;
+        margin-bottom: 59px;
     }
-
-
 
     .card1 {
         height: 167px;
@@ -363,5 +361,4 @@ header {
     .btm_shop {
         margin-bottom: 71px;
     }
-
 }
